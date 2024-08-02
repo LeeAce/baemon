@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\Practice\\c-clion801\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09B1609E-5991-4AEC-9503-D819768D3725}|c-clion801\\c-clion801.vcxproj|C:\\Users\\PC\\Desktop\\Practice\\c-clion801\\c-clion801\\\u64CD\u4F5C\u7B26.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{09B1609E-5991-4AEC-9503-D819768D3725}|c-clion801\\c-clion801.vcxproj|solutionrelative:c-clion801\\\u64CD\u4F5C\u7B26.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 211,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u64CD\u4F5C\u7B26.c",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Practice\\c-clion801\\c-clion801\\\u64CD\u4F5C\u7B26.c",
+              "RelativeDocumentMoniker": "c-clion801\\\u64CD\u4F5C\u7B26.c",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Practice\\c-clion801\\c-clion801\\\u64CD\u4F5C\u7B26.c",
+              "RelativeToolTip": "c-clion801\\\u64CD\u4F5C\u7B26.c",
+              "ViewState": "AQIAAOsAAAAAAAAAAAAAAO0AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-08-01T00:26:59.806Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
