@@ -127,58 +127,60 @@ int main() {
 
 /*测试使用qsort来排序结构数据*/
 /*难点重要理解*/
-struct Stu {
-    char name[20];
-    int age;
-};
+//struct Stu {
+//    char name[20];
+//    int age;
+//};
+//
+//void Swap(char *buf1, char *buf2, int width) {
+//    int i = 0;
+//    for (i = 0; i < width; i++) {
+//        char tmp = *buf1;
+//        *buf1 = *buf2;
+//        *buf2 = tmp;
+//        buf1++;
+//        buf2++;
+//    }
+//}
+//
+//void bubble_sort(void *base, int sz, int width, int(*cmp)(const void *e1, const void *e2)) {
+//    int i = 0;
+//    //趟数
+//    for (i = 0; i < sz - 1; i++) {
+//        int flag = 1;//假设数组是排好序
+//        //一趟冒泡排序的过程
+//        int j = 0;
+//        for (j = 0; j < sz - 1 - i; j++) {
+//            if (cmp((char *) base + j * width, (char *) base + (j + 1) * width) > 0) {
+//                //交换
+//                Swap((char *) base + j * width, (char *) base + (j + 1) * width, width);
+//                flag = 0;
+//            }
+//        }
+//        if (flag == 1) {
+//            break;
+//        }
+//    }
+//}
+//
+//int cmp_stu_by_name(const void *e1, const void *e2) {
+//    //strcmp --> >0 ==0 <0
+//    return strcmp(((struct Stu *) e1)->name, ((struct Stu *) e2)->name);
+//}
+//
+//void test4() {
+//    //测试使用qsort来排序结构数据
+//    struct Stu s[] = {{"zhangsan", 15},
+//                      {"lisi",     30},
+//                      {"wangwu",   25}};
+//    int sz = sizeof(s) / sizeof(s[0]);
+//    bubble_sort(s, sz, sizeof(s[0]), cmp_stu_by_name);
+////    bubble_sort(s, sz, sizeof(s[0]), cmp_stu_by_age);
+//}
+//
+//int main() {
+//    test4();
+//    return 0;
+//}
 
-void Swap(char *buf1, char *buf2, int width) {
-    int i = 0;
-    for (i = 0; i < width; i++) {
-        char tmp = *buf1;
-        *buf1 = *buf2;
-        *buf2 = tmp;
-        buf1++;
-        buf2++;
-    }
-}
 
-void bubble_sort(void *base, int sz, int width, int(*cmp)(const void *e1, const void *e2)) {
-    int i = 0;
-    //趟数
-    for (i = 0; i < sz - 1; i++) {
-        int flag = 1;//假设数组是排好序
-        //一趟冒泡排序的过程
-        int j = 0;
-        for (j = 0; j < sz - 1 - i; j++) {
-            if (cmp((char *) base + j * width, (char *) base + (j + 1) * width) > 0) {
-                //交换
-                Swap((char *) base + j * width, (char *) base + (j + 1) * width, width);
-                flag = 0;
-            }
-        }
-        if (flag == 1) {
-            break;
-        }
-    }
-}
-
-int cmp_stu_by_name(const void *e1, const void *e2) {
-    //strcmp --> >0 ==0 <0
-    return strcmp(((struct Stu *) e1)->name, ((struct Stu *) e2)->name);
-}
-
-void test4() {
-    //测试使用qsort来排序结构数据
-    struct Stu s[] = {{"zhangsan", 15},
-                      {"lisi",     30},
-                      {"wangwu",   25}};
-    int sz = sizeof(s) / sizeof(s[0]);
-    bubble_sort(s, sz, sizeof(s[0]), cmp_stu_by_name);
-    //bubble_sort(s, sz, sizeof(s[0]), cmp_stu_by_age);
-}
-
-int main() {
-    test4();
-    return 0;
-}
