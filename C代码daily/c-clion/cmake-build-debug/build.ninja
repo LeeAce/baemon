@@ -79,11 +79,11 @@ build CMakeFiles/c_clion.dir/lyh/805/进阶-回调函数(冒泡排序)day04-805.
   OBJECT_DIR = CMakeFiles\c_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\c_clion.dir\lyh\805
 
-build CMakeFiles/c_clion.dir/lyh/805/520.c.obj: C_COMPILER__c_clion_unscanned_Debug C$:/Users/PC/Desktop/Practice/c-clion/lyh/805/520.c || cmake_object_order_depends_target_c_clion
-  DEP_FILE = CMakeFiles\c_clion.dir\lyh\805\520.c.obj.d
+build CMakeFiles/c_clion.dir/lyh/808/复习.c.obj: C_COMPILER__c_clion_unscanned_Debug C$:/Users/PC/Desktop/Practice/c-clion/lyh/808/复习.c || cmake_object_order_depends_target_c_clion
+  DEP_FILE = CMakeFiles\c_clion.dir\lyh\808\复习.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\c_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\c_clion.dir\lyh\805
+  OBJECT_FILE_DIR = CMakeFiles\c_clion.dir\lyh\808
 
 
 # =============================================================================
@@ -93,7 +93,7 @@ build CMakeFiles/c_clion.dir/lyh/805/520.c.obj: C_COMPILER__c_clion_unscanned_De
 #############################################
 # Link the executable c_clion.exe
 
-build c_clion.exe: C_EXECUTABLE_LINKER__c_clion_Debug CMakeFiles/c_clion.dir/main.c.obj CMakeFiles/c_clion.dir/lyh/803/进阶-数据存储day01-803.c.obj CMakeFiles/c_clion.dir/lyh/803/进阶-指针day02-803.c.obj CMakeFiles/c_clion.dir/lyh/804/进阶-指针day03-804.c.obj CMakeFiles/c_clion.dir/lyh/805/进阶-回调函数(冒泡排序)day04-805.c.obj CMakeFiles/c_clion.dir/lyh/805/520.c.obj
+build c_clion.exe: C_EXECUTABLE_LINKER__c_clion_Debug CMakeFiles/c_clion.dir/main.c.obj CMakeFiles/c_clion.dir/lyh/803/进阶-数据存储day01-803.c.obj CMakeFiles/c_clion.dir/lyh/803/进阶-指针day02-803.c.obj CMakeFiles/c_clion.dir/lyh/804/进阶-指针day03-804.c.obj CMakeFiles/c_clion.dir/lyh/805/进阶-回调函数(冒泡排序)day04-805.c.obj CMakeFiles/c_clion.dir/lyh/808/复习.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\c_clion.dir
