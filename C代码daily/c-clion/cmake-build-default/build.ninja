@@ -80,6 +80,24 @@ build CMakeFiles/c_clion.dir/lyh/808/复习.c.obj: C_COMPILER__c_clion_unscanned
   OBJECT_DIR = CMakeFiles\c_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\c_clion.dir\lyh\808
 
+build CMakeFiles/c_clion.dir/lyh/809/练习题day06-809.c.obj: C_COMPILER__c_clion_unscanned_ C$:/Users/PC/Desktop/Practice/c-clion/lyh/809/练习题day06-809.c || cmake_object_order_depends_target_c_clion
+  DEP_FILE = CMakeFiles\c_clion.dir\lyh\809\练习题day06-809.c.obj.d
+  FLAGS = -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\c_clion.dir
+  OBJECT_FILE_DIR = CMakeFiles\c_clion.dir\lyh\809
+
+build CMakeFiles/c_clion.dir/lyh/809/进阶-字符函数and字符串函数day06-809.c.obj: C_COMPILER__c_clion_unscanned_ C$:/Users/PC/Desktop/Practice/c-clion/lyh/809/进阶-字符函数and字符串函数day06-809.c || cmake_object_order_depends_target_c_clion
+  DEP_FILE = CMakeFiles\c_clion.dir\lyh\809\进阶-字符函数and字符串函数day06-809.c.obj.d
+  FLAGS = -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\c_clion.dir
+  OBJECT_FILE_DIR = CMakeFiles\c_clion.dir\lyh\809
+
+build CMakeFiles/c_clion.dir/lyh/810/进阶-内存函数day07-810.c.obj: C_COMPILER__c_clion_unscanned_ C$:/Users/PC/Desktop/Practice/c-clion/lyh/810/进阶-内存函数day07-810.c || cmake_object_order_depends_target_c_clion
+  DEP_FILE = CMakeFiles\c_clion.dir\lyh\810\进阶-内存函数day07-810.c.obj.d
+  FLAGS = -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\c_clion.dir
+  OBJECT_FILE_DIR = CMakeFiles\c_clion.dir\lyh\810
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target c_clion
@@ -88,7 +106,7 @@ build CMakeFiles/c_clion.dir/lyh/808/复习.c.obj: C_COMPILER__c_clion_unscanned
 #############################################
 # Link the executable c_clion.exe
 
-build c_clion.exe: C_EXECUTABLE_LINKER__c_clion_ CMakeFiles/c_clion.dir/main.c.obj CMakeFiles/c_clion.dir/lyh/803/进阶-数据存储day01-803.c.obj CMakeFiles/c_clion.dir/lyh/803/进阶-指针day02-803.c.obj CMakeFiles/c_clion.dir/lyh/804/进阶-指针day03-804.c.obj CMakeFiles/c_clion.dir/lyh/805/进阶-回调函数(冒泡排序)day04-805.c.obj CMakeFiles/c_clion.dir/lyh/808/复习.c.obj
+build c_clion.exe: C_EXECUTABLE_LINKER__c_clion_ CMakeFiles/c_clion.dir/main.c.obj CMakeFiles/c_clion.dir/lyh/803/进阶-数据存储day01-803.c.obj CMakeFiles/c_clion.dir/lyh/803/进阶-指针day02-803.c.obj CMakeFiles/c_clion.dir/lyh/804/进阶-指针day03-804.c.obj CMakeFiles/c_clion.dir/lyh/805/进阶-回调函数(冒泡排序)day04-805.c.obj CMakeFiles/c_clion.dir/lyh/808/复习.c.obj CMakeFiles/c_clion.dir/lyh/809/练习题day06-809.c.obj CMakeFiles/c_clion.dir/lyh/809/进阶-字符函数and字符串函数day06-809.c.obj CMakeFiles/c_clion.dir/lyh/810/进阶-内存函数day07-810.c.obj
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\c_clion.dir
   POST_BUILD = cd .
