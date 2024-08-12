@@ -16,4 +16,5 @@ add_executable(c_clion main.c
         lyh/811/进阶-结构体内存对齐与修改默认对齐数day08-811.c
         lyh/811/进阶-位段day08-811.c
         lyh/811/进阶-枚举day08-811.c
+        lyh/812/动态内存开辟.c
 )
